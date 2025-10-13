@@ -1,0 +1,92 @@
+# -----------------------------
+# Python & Environment
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# -----------------------------
+# Data & Cache
+# -----------------------------
+data/*.pdf
+data/*.txt
+data/*.csv
+*.log
+*.dat
+*.db
+*.sqlite
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.cache/
+.cache/
+logs/
+tmp/
+temp/
+
+# Hugging Face / Transformer cache
+transformers_cache/
+sentence_transformers/
+~/.cache/
+~/.huggingface/
+
+# -----------------------------
+# Streamlit & Web
+# -----------------------------
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/
+
+# -----------------------------
+# IDEs & Editors
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Build & Distribution
+# -----------------------------
+build/
+dist/
+*.egg-info/
+MANIFEST
+*.tar.gz
+
+# -----------------------------
+# Miscellaneous
+# -----------------------------
+# Environment / credentials
+.env
+*.key
+*.pem
+*.crt
+*.json
+
+# OS files
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
