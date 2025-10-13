@@ -8,8 +8,7 @@ This project uses **Sentence Transformers** to compute semantic similarity and p
 ## 🌟 Live Demo
 🚀 **Coming soon on Streamlit Cloud!**
 (You can deploy your own version easily using Streamlit Cloud or Render.)
-## Screenshots
-![Screenshot](data/result.png)
+
 ---
 
 ## 👩‍💻 Author
