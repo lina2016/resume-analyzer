@@ -70,6 +70,7 @@ Education: 59.2%
 rust, typescript, copilot, codex, collaborate, build, debug
 
 📂 Project Structure
+```
 resume-analyzer/
 │── src/
 │   ├── parser.py          # Extracts text from resume PDFs
@@ -82,6 +83,7 @@ resume-analyzer/
 │── README.md
 │── .gitignore
 │── LICENSE
+```
 
 🧠 Behind the Scenes
 This application leverages pretrained transformer models to perform semantic text analysis between two unstructured documents.
