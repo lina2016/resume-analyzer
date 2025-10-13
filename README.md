@@ -45,7 +45,6 @@ AI Engineer | Python Developer | Full-Stack Web Developer
 ## ⚙️ Installation & Usage
 
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/lina2016/resume-analyzer.git
 cd resume-analyzer
 
@@ -53,7 +52,6 @@ cd resume-analyzer
 pip install -r requirements.txt
 
 ### 3️⃣ Run the Application
-```bash
 streamlit run src/app.py
 
 ### 4️⃣ Access the App
