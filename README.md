@@ -1,21 +1,43 @@
 # 📄 AI-Powered Resume Analyzer (NLP + Transformers)
 
-An **AI-driven Resume Analyzer** built with **Python**, **Natural Language Processing (NLP)**, and **Transformer embeddings** to evaluate how well a resume aligns with a job description.
-This project uses **Sentence Transformers** to compute semantic similarity and provides an intelligent match score, missing keyword suggestions, and section-wise analysis.
+An AI-powered resume intelligence system that analyzes resumes against job descriptions using transformer-based semantic embeddings.
+
+Instead of relying only on keyword matching, this application uses Sentence Transformers to understand contextual meaning, calculate similarity scores, identify skill gaps, and provide section-level insights.
 
 ---
 
-## 🌟 Live Demo
-🚀 **Coming soon on Streamlit Cloud!**
-(You can deploy your own version easily using Streamlit Cloud or Render.)
+## 🌟 Demo
+
+🎥 Demo video: Coming soon
+
+🚀 Live deployment: Coming soon on Streamlit Cloud
 
 ---
-
-## 👩‍💻 Author
-**Lina Jamadar**
-AI Engineer | Python Developer | Full-Stack Web Developer
-📍 Surat, Gujarat, India
-🔗 [LinkedIn](https://www.linkedin.com/in/lina-jamadar) | [GitHub](https://github.com/lina2016)
+## 🏗️ Architecture
+Resume PDF
+|
+v
+PDF Text Extraction
+(pdfplumber)
+|
+v
+Text Preprocessing
+|
+v
+Sentence Transformer Model
+(all-MiniLM-L6-v2)
+|
+v
+Embedding Generation
+|
+v
+Cosine Similarity Calculation
+|
+v
+Match Score + Skill Gap Analysis
+|
+v
+Streamlit Dashboard
 
 ---
 
@@ -67,7 +89,12 @@ Experience: 68.3%
 Education: 59.2%
 
 🔑 Missing Keywords:
-rust, typescript, copilot, codex, collaborate, build, debug
+Python
+AWS
+Docker
+Kubernetes
+TypeScript
+React
 
 📂 Project Structure
 ```
@@ -85,31 +112,28 @@ resume-analyzer/
 │── LICENSE
 ```
 
-🧠 Behind the Scenes
-This application leverages pretrained transformer models to perform semantic text analysis between two unstructured documents.
-It demonstrates key AI/NLP techniques including:
+## 🧠 AI Methodology
+The system converts resume and job description text into numerical vector representations using Sentence Transformer embeddings.
 
-Sentence embeddings
+The similarity between documents is calculated using cosine similarity:
 
-Cosine similarity for semantic matching
+- Higher similarity score → stronger resume alignment
+- Lower similarity score → potential skill gaps
 
-Keyword extraction & filtering
+This approach captures semantic relationships beyond exact keyword matching.
 
-Section-based text analytics
-
-Interactive UI deployment with Streamlit
 
 ✅ It’s an Applied AI project showcasing both machine learning understanding and software engineering capability.
 
-🧩 Future Enhancements
 
--🤖 Integrate LLM feedback (e.g., GPT-based resume improvement tips)
+## 🧩 Future Enhancements
 
--🔗 Connect with Jooble API for live job data
-
--🧱 Add NER-based skill extraction using spaCy
-
--☁️ Deploy live demo on Streamlit Cloud
+- 🤖 Add LLM-powered resume improvement recommendations
+- 🔍 Implement RAG-based career guidance using resume context
+- 🧠 Add NER-based skill extraction using spaCy
+- 📊 Add ATS compatibility scoring
+- 🔗 Integrate job search APIs for personalized matching
+- ☁️ Deploy production version using FastAPI + cloud infrastructure
 
 
 🧾 License
@@ -131,3 +155,9 @@ It helps others discover this work and supports open-source learning.
 
 ## Screenshots
 ![Screenshot](data/result.png)
+
+## 👩‍💻 Author
+**Lina Jamadar**
+AI Engineer | Python Developer | Full-Stack Web Developer
+📍 Surat, Gujarat, India
+🔗 [LinkedIn](https://www.linkedin.com/in/lina-jamadar) | [GitHub](https://github.com/lina2016)
