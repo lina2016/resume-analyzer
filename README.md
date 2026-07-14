@@ -94,17 +94,16 @@ Visit 👉 http://localhost:8501 in your browser.
 ✅ Overall Match Score: 72.4%
 
 📊 Section-wise Match:
+```
 Skills: 80.1%
 Experience: 68.3%
 Education: 59.2%
+```
 
 🔑 Missing Keywords:
-Python
-AWS
-Docker
-Kubernetes
-TypeScript
-React
+```
+Python, AWS, Docker, Kubernetes, TypeScript, React
+```
 
 📂 Project Structure
 ```
