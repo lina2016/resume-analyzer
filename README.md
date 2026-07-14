@@ -14,30 +14,39 @@ Instead of relying only on keyword matching, this application uses Sentence Tran
 
 ---
 ## 🏗️ Architecture
-Resume PDF
-|
-v
-PDF Text Extraction
-(pdfplumber)
-|
-v
-Text Preprocessing
-|
-v
-Sentence Transformer Model
-(all-MiniLM-L6-v2)
-|
-v
-Embedding Generation
-|
-v
-Cosine Similarity Calculation
-|
-v
-Match Score + Skill Gap Analysis
-|
-v
-Streamlit Dashboard
+            
+                         Resume PDF
+                             |
+                             v
+                    Document Parser
+                     (pdfplumber)
+                             |
+                             v
+                  Text Preprocessing
+              (cleaning, normalization)
+                             |
+                             v
+              Sentence Transformer Model
+                 (all-MiniLM-L6-v2)
+                             |
+              -----------------------------
+              |                           |
+              v                           v
+     Resume Embeddings          Job Description
+                                      Embeddings
+              |                           |
+              -------------+-------------
+                           |
+                           v
+              Cosine Similarity Calculation
+                           |
+              -----------------------------
+              |                           |
+              v                           v
+        Match Score              Skill Gap Analysis
+              |
+              v
+          Streamlit Dashboard
 
 ---
 
