@@ -13,8 +13,9 @@ Instead of relying only on keyword matching, this application uses Sentence Tran
 🚀 Live deployment: Coming soon on Streamlit Cloud
 
 ---
-## 🏗️ Architecture
-            
+## 🏗️ System Architecture
+
+```text
                          Resume PDF
                              |
                              v
@@ -47,7 +48,7 @@ Instead of relying only on keyword matching, this application uses Sentence Tran
               |
               v
           Streamlit Dashboard
-
+```
 ---
 
 ## 🚀 Features
